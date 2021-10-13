@@ -1,7 +1,8 @@
 Feature: Home page
     This feature will test that the home page is correctly
     displayed
-
+    
+    @IRPAPI-3977
     Scenario: Home page title
         Given I open my application
         Then I land on the home page
